@@ -1,0 +1,49 @@
+body {
+  color: #444;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+article {
+  border: 5px solid #000;
+}
+.header {
+  background-color: #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.cart-button {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.cart-button:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+a:link,
+a:visited {
+  color: #444;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.list {
+  list-style: square;
+}
+.off {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #777;
+}
+.price {
+  font-size: 22px;
+  font-weight: bold;
+}

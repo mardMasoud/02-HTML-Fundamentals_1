@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+body {
+  background-color: rgb(159, 123, 123);
+  font-family: sans-serif;
+  color: #444;
+}
+.container {
+  width: 800px;
+  background-color: aquamarine;
+  margin: 0 auto;
+}
+article {
+  margin-bottom: 60px;
+}
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+nav {
+  font-size: 18px;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+aside {
+  background-color: rgb(247, 247, 247);
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  width: 500px;
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.post-header {
+  margin-bottom: 40px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+header p {
+  font-style: italic;
+}
+#copyright {
+  font-size: 16px;
+}
+/* footer p {
+  font-size: 16px;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.related-list {
+  list-style: none;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+a:visited {
+  color: #1098ad;
+}
+a:active {
+  background-color: black;
+}
