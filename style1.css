@@ -11,6 +11,7 @@ article {
     border: 5px solid #000;
     width: 825px;
     margin: 150px auto 0 auto;
+    position: relative;
 }
 .header {
     background-color: #f7f7f7;
@@ -64,4 +65,32 @@ a:active {
 .price {
     font-size: 22px;
     font-weight: bold;
+}
+
+.color{
+    width: 20px;
+    height: 20px;
+    border: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.colors{
+    margin-bottom: 25px;
+}
+.color :last-child{
+    margin-right: 0;
+}
+.sale{
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: -25px;
+    left: -35px;
+    padding: 10px 15px;
+    font-weight: bold;
+    display: inline-block;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+   transform: rotate(-45deg);
 }
