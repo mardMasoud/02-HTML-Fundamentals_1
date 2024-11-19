@@ -6,6 +6,10 @@ body {
     color: #444;
     font-family: sans-serif;
     line-height: 1.4;
+
+}
+h2{
+    float: right;
 }
 article {
     border: 5px solid #000;
@@ -61,10 +65,18 @@ a:active {
     font-weight: bold;
     color: #777;
     margin-bottom: 20px;
+    float: left;
+    margin-left: 30px;
 }
 .price {
     font-size: 22px;
     font-weight: bold;
+    float: left;
+    margin-left: 30px;
+}
+.info{
+    margin: 30px;
+    float: right;
 }
 
 .color{
@@ -93,4 +105,7 @@ a:active {
     letter-spacing: 2px;
     text-transform: uppercase;
    transform: rotate(-45deg);
+}
+img{
+    float: left;
 }
