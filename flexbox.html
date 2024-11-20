@@ -8,6 +8,7 @@
     <style>
       .el--1 {
         background-color: blueviolet;
+        
       }
       .el--2 {
         background-color: orangered;
@@ -25,20 +26,34 @@
       .el--6 {
         background-color: steelblue;
       }
-      .el--7 {
-        background-color: yellow;
-      }
+     
       .el--8 {
         background-color: crimson;
+       
+     
       }
-
+.el{
+flex-basis: 100px;
+/* width: 100px; */
+flex-shrink: 1;
+flex-grow: 0;
+}
+.el--7 {
+        background-color: yellow;
+        flex-grow: 1;
+      }
       .container {
+    /* gap:10px; */
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
-        margin: 40px;
-
+        font-size: 20px;
+        /* margin: 40px; */
+        /* height: 800px; */
+        /* width: 800px; */
+display: flex;
+align-items: center;
+/* justify-content: center; */
         /* FLEXBOX */
       }
     </style>
