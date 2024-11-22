@@ -12,7 +12,8 @@ ol {
 body {
   font-family: sans-serif;
   color: #444;
-  position: relative;    border-top: 10px solid #1098ad;
+  position: relative;
+  border-top: 10px solid #1098ad;
 }
 .container {
   width: 1200px;
@@ -21,14 +22,13 @@ body {
 }
 article {
   margin-bottom: 60px;
+  /* flex: 0 1 800px; */
+  /* flex-shrink: 20; */
 }
 .main-header {
-  /* background-color: #f7f7f7; */
+  background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  /* background-color: brown; */
-  /* display: inline-block; */
-  /* height: 80px; */
 }
 
 nav {
@@ -48,12 +48,17 @@ h2,
 h3 {
   color: #1098ad;
 }
+/* main {
+  display: flex;
+  align-items: flex-start;
+} */
 aside {
   background-color: rgb(247, 247, 247);
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
-  width: 500px;
+  /* width: 500px; */
+  /* flex: 0 1 400px; */
 }
 h1 {
   font-size: 26px;
@@ -76,6 +81,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 25px;
 }
 p {
   font-size: 22px;
@@ -95,9 +101,10 @@ header p {
 #copyright {
   font-size: 16px;
 }
-/* footer p {
+footer p {
   font-size: 16px;
-} */
+  text-align: center;
+}
 
 #author {
   font-style: italic;
@@ -109,6 +116,7 @@ header p {
 }
 .related-list {
   list-style: none;
+  margin-left: 15px;
 }
 
 a:link {
@@ -181,3 +189,50 @@ footer {
 
   clear: both;
 } */
+
+/* flex */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.author-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+.author {
+  margin-bottom: 0;
+}
+.related-post {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.related-author {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 14px;
+}
+.related-link:link {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 17px;
+  margin-bottom: 5px;
+  display: block;
+}
+main {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+article {
+}
+aside {
+  flex-basis: 300px;
+  /* padding-top: 10px; */
+  flex-shrink: 0;
+}

@@ -2,16 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Flexbox</title>
     <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
       .el--1 {
+        flex: 0 0 200px;
         background-color: blueviolet;
-        
       }
       .el--2 {
         background-color: orangered;
+        flex: 1 1 300px;
       }
       .el--3 {
         background-color: green;
@@ -26,24 +38,22 @@
       .el--6 {
         background-color: steelblue;
       }
-     
+
       .el--8 {
         background-color: crimson;
-       
-     
       }
-.el{
-flex-basis: 100px;
-/* width: 100px; */
-flex-shrink: 1;
-flex-grow: 0;
-}
-.el--7 {
+      .el {
+        /* flex-basis: 100px;
+      
+        flex-shrink: 0;
+        flex-grow: 1; */
+      }
+      .el--7 {
         background-color: yellow;
         flex-grow: 1;
       }
       .container {
-    /* gap:10px; */
+        /* gap:10px; */
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
@@ -51,17 +61,28 @@ flex-grow: 0;
         /* margin: 40px; */
         /* height: 800px; */
         /* width: 800px; */
-display: flex;
-align-items: center;
-/* justify-content: center; */
+        /* display: flex; */
+        align-items: center;
+        /* justify-content: center; */
         /* FLEXBOX */
+      }
+      .d1 {
+        display: flex;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="el el--1">HTML</div>
-      <div class="el el--2">and</div>
+      <div class="d1">
+        <div class="el el--1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+          consectetur impedit ac444444usantium, modi quis accusamus nesciunt
+          doloribus in neque fuga odit velit magni laborum sed voluptatibus
+          dolorum voluptas error quidem.L
+        </div>
+        <div class="el el--2">and</div>
+      </div>
+
       <div class="el el--3">CSS</div>
       <div class="el el--4">are</div>
       <div class="el el--5">amazing</div>

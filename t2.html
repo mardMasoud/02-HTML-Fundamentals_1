@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <style>
-            * {
-                box-sizing: border-box;
-                margin: 0;
-                padding: 0;
-            }
-            body {
-                /* box-sizing: border-box; */
-            }
-            .c {
-                width: 820px;
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        /* box-sizing: border-box; */
+      }
+      .img {
+        width: 150px;
+        float: left;
+      }
+      .c {
+        width: 820px;
 
-                background-color: rgb(80, 43, 226);
-                border: 1px solid black;
-                margin: 0 auto;
-                
-            }
-            .c1 {
-                background-color: chartreuse;
-                display: inline;
-                width: 300px; 
-height: 500px;
-            }
-            .c2 {
-              width: 300px;
-                height: 300px;
-                background-color: brown;
-                display:inline-block;
-                /* margin-top: 10px; */
-               
-            }
-        </style>
-    </head>
-    <body>
-        <div class="c">
-            <div class="c1">
-               
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod quisquam
-                    consequuntur, quibusdam soluta rem aperiam id commodi facere magnam, officiis
-                    optio repudiandae, delectus nostrum facilis voluptatum nesciunt magni maiores!
-                
-            </div>
-            <div class="c2">
-               
-                    Lorem ipsum dolor sit ametonsequuntur, quibusdam soluta rem aperiam id commodi facere magnam, officiis
-                    optio repudiandae, delectusonsequuntur, quibusdam soluta rem aperiam id commodi facere magnam, officiis
-                    optio repudiandae, delectus
-               
-            </div>
-        </div>
-    </body>
+        background-color: rgb(80, 43, 226);
+        border: 1px solid black;
+        margin: 0 auto;
+      }
+      .c1 {
+        background-color: chartreuse;
+        padding: 19px;
+      }
+      p {
+        background-color: brown;
+        /* margin-left: 10px; */
+        /* padding-left: 10px; */
+      }
+      .c1::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <div class="c1">
+        <img
+          src="img/related-1.jpg"
+          alt=""
+          class="img"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod
+          quisquam consequuntur, quibusdam soluta rem aperiam id commodi facere
+          magnam, officiis optio repudiandae, delectus nostrum facilis
+          voluptatum nesciunt magni maiores! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Saepe quod quisquam consequuntur, io
+          repudiandae, delectus nostrum facilis voluptatum nesciunt magni
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

@@ -2,8 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>CSS Grid</title>
     <style>
       .el--1 {
@@ -30,20 +36,27 @@
       }
       .el--8 {
         background-color: crimson;
+        height: 150px;
       }
 
       .container--1 {
         /* STARTER */
+        align-items: center;
+        justify-content: center;
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
+        font-size: 20px;
         margin: 40px;
-
+        display: grid;
+        grid-template-columns: 100px 150px 100px 150px;
+        gap: 10px 20px;
         /* CSS GRID */
+        /* grid-template-rows: 400px; */
       }
 
       .container--2 {
         /* STARTER */
+        display: none;
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
