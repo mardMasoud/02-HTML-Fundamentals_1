@@ -20,7 +20,6 @@
       }
       .el--3 {
         background-color: green;
-        height: 150px;
       }
       .el--4 {
         background-color: goldenrod;
@@ -35,23 +34,27 @@
         background-color: yellow;
       }
       .el--8 {
+        /* height: 100px; */
         background-color: crimson;
-        height: 150px;
       }
 
       .container--1 {
         /* STARTER */
-        align-items: center;
-        justify-content: center;
+        width: 1200px;
+        /* place-content: center; */
+        align-items: end;
+        justify-items: start;
+        /* align-items: center; */
         font-family: sans-serif;
         background-color: #ddd;
         font-size: 20px;
         margin: 40px;
         display: grid;
-        grid-template-columns: 100px 150px 100px 150px;
+        grid-template-columns: 300px 150px 100px 100px;
         gap: 10px 20px;
         /* CSS GRID */
-        /* grid-template-rows: 400px; */
+        height: 400px;
+        /* grid-template-rows: 400px 400px; */
       }
 
       .container--2 {
